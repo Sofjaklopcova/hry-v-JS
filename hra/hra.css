@@ -1,0 +1,46 @@
+.container {
+    max-width: 30%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.progress {
+
+}
+
+#progressbar {
+    width: 0;
+}
+
+.num-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.num-cards .alert {
+    border: 1px solid rgb(129, 116, 245);
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.num-cards .alert.succes {
+    background: chartreuse;
+    color: white;
+}
+
+.num-cards .alert.danger {
+    background: rgb(243, 25, 25);
+    color: white;
+}
