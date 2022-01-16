@@ -10,7 +10,7 @@ main{
     height: 100vh;
 }
 .progress {
-
+    width: 100%;
 }
 
 #progressbar {
@@ -30,16 +30,21 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 320px;
+    height: 300px;
     font-size: 50px;
     cursor: pointer;
 }
 
-.num-cards .alert.succes {
+.num-cards .alert.active {
     background: chartreuse;
     color: white;
 }
 
+#level {
+    position: absolute;
+    top: 20 ;
+    left: 20;
+}
 .num-cards .alert.danger {
     background: rgb(243, 25, 25);
     color: white;

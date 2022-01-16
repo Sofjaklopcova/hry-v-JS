@@ -15,7 +15,9 @@ firstCard.onclick = () => {
         firstCard.classList.add('success')
     }else firstCard.classList.add('danger')
 
-    setTimeout(() =>)
+    setTimeout(() =>(
+        setCards()
+    ), 1500)
 
     
 }
